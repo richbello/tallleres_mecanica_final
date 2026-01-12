@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "Código": "A001",
+    "Producto": "Galón de Aceite Mobil 20w-40",
+    "Cantidad": 15.0,
+    "Precio Unitario": 80000.0,
+    "Valor Total": 1200000,
+    "created_at": "2026-01-08T16:26:19.812357"
+  },
+  {
+    "id": 2,
+    "Código": "A002",
+    "Producto": "Galón Aceite Chevron 20w-50",
+    "Cantidad": 18.0,
+    "Precio Unitario": 92000.0,
+    "Valor Total": 1656000,
+    "created_at": "2026-01-08T16:27:20.642956"
+  },
+  {
+    "id": 3,
+    "Código": "A003",
+    "Producto": "Filtro de Aire Renault Megane",
+    "Cantidad": 16.0,
+    "Precio Unitario": 39000.0,
+    "Valor Total": 624000,
+    "created_at": "2026-01-08T16:27:55.834937",
+    "updated_at": "2026-01-08T16:28:18.969145"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "usuario": "test",
+    "clave": "1234",
+    "expira": "2026-12-31"
+  },
+  {
+    "usuario": "cliente1",
+    "clave": "ABC123",
+    "expira": "2026-01-31"
+  }
+]

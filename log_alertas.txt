@@ -1,0 +1,79 @@
+# Ruta del archivo JSON
+$jsonPath = "C:\RICHARD\BD\2025\Taller_mecánica\ordenes_taller.json"
+$logPath = "C:\RICHARD\BD\2025\Taller_mecánica\log_alertas.txt"
+$fechaEjecucion = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+
+# Cargar órdenes con codificación UTF-8
+$ordenes = Get-Content $jsonPath -Raw -Encoding UTF8 | ConvertFrom-Json
+$hoy = Get-Date
+
+# Filtrar órdenes próximas a vencer en los próximos 10 días
+$alertas = $ordenes | Where-Object {
+    $_.estado -ne "Terminado" -and
+    $_.fecha -and
+    ([datetime]$_.fecha -ge $hoy) -and
+    ([datetime]$_.fecha -le $hoy.AddDays(10))
+}
+
+# Construir tabla HTML
+if ($alertas.Count -gt 0) {
+    $rows = ""
+    foreach ($o in $alertas) {
+        $rows += "<tr>
+                    <td>$($o.placa)</td>
+                    <td>$($o.cliente)</td>
+                    <td>$($o.servicio)</td>
+                    <td>$($o.estado)</td>
+                    <td>$($o.fecha)</td>
+                    <td>$($o.total)</td>
+                  </tr>"
+    }
+
+    $body = @"
+    <html>
+    <head>
+        <style>
+            body { font-family: Segoe UI, Arial, sans-serif; color:#333; }
+            h2 { color:#0f172a; }
+            table { border-collapse: collapse; width: 100%; margin-top:10px; }
+            th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+            th { background-color: #1e293b; color: #f59e0b; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+        </style>
+    </head>
+    <body>
+        <h2>Órdenes próximas a vencer en los próximos 10 días</h2>
+        <p>Se encontraron <b>$($alertas.Count)</b> órdenes pendientes o en proceso:</p>
+        <table>
+            <tr>
+                <th>Placa</th>
+                <th>Cliente</th>
+                <th>Servicio</th>
+                <th>Estado</th>
+                <th>Fecha</th>
+                <th>Total</th>
+            </tr>
+            $rows
+        </table>
+    </body>
+    </html>
+"@
+} else {
+    $body = "<html><body><h2>No hay órdenes próximas a vencer en los próximos 10 días.</h2></body></html>"
+}
+
+# Enviar correo por Outlook
+try {
+    $Outlook = New-Object -ComObject Outlook.Application
+    $Mail = $Outlook.CreateItem(0)
+    $Mail.To = "taller2026.richard@gmail.com"
+    $Mail.Subject = "Alertas de Órdenes por Vencer (10 días)"
+    $Mail.HTMLBody = $body
+    $Mail.Send()
+
+    Add-Content $logPath "`n[$fechaEjecucion] ✔ Correo enviado con $($alertas.Count) órdenes."
+} catch {
+    Add-Content $logPath "`n[$fechaEjecucion] ❌ Error al enviar correo: $($_.Exception.Message)"
+}
+
+[2026-01-03 21:12:48] ? Error al enviar correo: Excepci�n al llamar a "Send" con los argumentos "1": "El servidor SMTP requiere una conexi�n segura o el cliente no se autentic�. La respuesta del servidor fue: 5.7.57 Client not authenticated to send mail. Error: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BN0PR08CA0005.namprd08.prod.outlook.com 2026-01-04T02:12:32.765Z 08DE4759E7A91F4A]"

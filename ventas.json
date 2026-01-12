@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "Cliente": "Héctor Bello Murcia",
+    "Producto": "Amortiguador Delantero Toyota",
+    "Cantidad": 15.0,
+    "Precio": 150000.0,
+    "Total": 2250000,
+    "created_at": "2026-01-08T16:06:07.385194"
+  },
+  {
+    "id": 2,
+    "Cliente": "Juan Manuel Bello",
+    "Producto": "Bumper Trasero Chevrolet Spark",
+    "Cantidad": 2.0,
+    "Precio": 355000.0,
+    "Total": 710000,
+    "created_at": "2026-01-08T16:06:45.457419"
+  },
+  {
+    "id": 3,
+    "Cliente": "Daniela Sánchez Vargas",
+    "Producto": "Puerta delantera Volvo xc60",
+    "Cantidad": 3.0,
+    "Precio": 7500000.0,
+    "Total": 22500000,
+    "created_at": "2026-01-08T16:07:51.080664"
+  }
+]

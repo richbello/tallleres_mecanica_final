@@ -1,0 +1,234 @@
+2026-01-08 17:57:49 | check_password_strength | score=5
+2026-01-08 17:57:51 | check_password_strength | score=5
+2026-01-08 17:57:55 | check_password_strength | score=5
+2026-01-08 17:57:55 | generate_password | len=16
+2026-01-08 18:00:20 | check_password_strength | score=3
+2026-01-08 18:00:28 | check_password_strength | score=5
+2026-01-08 18:00:40 | check_password_strength | score=5
+2026-01-08 18:00:40 | generate_password | len=16
+2026-01-08 18:03:23 | check_password_strength | score=5
+2026-01-08 18:03:27 | show_password_toggled | shown
+2026-01-08 18:03:29 | show_password_toggled | hidden
+2026-01-08 18:03:30 | check_password_strength | score=5
+2026-01-08 18:03:30 | generate_password | len=16
+2026-01-08 18:03:32 | show_password_toggled | shown
+2026-01-08 18:03:37 | show_password_toggled | hidden
+2026-01-08 18:06:13 | check_password_strength | score=5
+2026-01-08 18:06:13 | generate_password | len=16
+2026-01-08 18:06:20 | check_password_strength | score=5
+2026-01-08 18:06:20 | generate_password | len=16
+2026-01-08 18:06:22 | show_password_toggled | shown
+2026-01-08 18:06:26 | copy_password | service=USUARIO NUEVO user=Richbello
+2026-01-08 18:25:46 | check_password_strength | score=5
+2026-01-08 18:25:53 | check_password_strength | score=5
+2026-01-08 18:25:53 | generate_password | len=16
+2026-01-08 18:25:55 | show_password_toggled | shown
+2026-01-08 18:25:59 | copy_password | service=usuario nuevo user=Richbello
+2026-01-08 19:16:32 | session_started | richb | {"session_id": "richb-20260108191632", "user": "richb", "started_at": "2026-01-08 19:16:32"}
+2026-01-08 19:16:46 | session_ended | richb | {"session_id": "richb-20260108191632"}
+2026-01-08 19:16:51 | session_started | richb | {"session_id": "richb-20260108191651", "user": "richb", "started_at": "2026-01-08 19:16:51"}
+2026-01-08 19:16:56 | session_ended | richb | {"session_id": "richb-20260108191651"}
+2026-01-08 19:18:07 | module_opened | richb | {"module": "Seguridad", "details": "window_created"}
+2026-01-08 19:18:15 | module_closed | richb | {"module": "Seguridad", "details": "window_closed"}
+2026-01-08 19:18:58 | module_opened | richb | {"module": "PasarelaPagos", "details": "window_created"}
+2026-01-08 19:19:12 | module_closed | richb | {"module": "PasarelaPagos", "details": "window_closed"}
+2026-01-08 19:21:42 | module_opened | richb | {"module": "PasarelaPagos", "details": "window_created"}
+2026-01-08 19:21:47 | module_closed | richb | {"module": "PasarelaPagos", "details": "window_closed"}
+2026-01-08 19:22:02 | session_started | richb | {"session_id": "richb-20260108192202", "user": "richb", "started_at": "2026-01-08 19:22:02"}
+2026-01-08 19:22:05 | module_opened | richb | {"module": "seguridad_taller.py", "details": "opened_from_panel"}
+2026-01-08 19:22:05 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udd12 Seguridad", "details": "open:seguridad_taller.py"}
+2026-01-08 19:22:06 | module_opened | richb | {"module": "Seguridad", "details": "window_created"}
+2026-01-08 19:22:12 | module_closed | richb | {"module": "Seguridad", "details": "window_closed"}
+2026-01-08 19:22:14 | session_ended | richb | {"session_id": "richb-20260108192202"}
+2026-01-08 19:25:46 | session_started | richb | {"session_id": "richb-20260108192546", "user": "richb", "started_at": "2026-01-08 19:25:46"}
+2026-01-08 19:27:04 | module_opened | richb | {"module": "seguridad_taller.py", "details": "opened_from_panel"}
+2026-01-08 19:27:04 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udd12 Seguridad", "details": "open:seguridad_taller.py"}
+2026-01-08 19:27:06 | module_opened | richb | {"module": "Seguridad", "details": "window_created"}
+2026-01-08 19:27:14 | module_opened | richb | {"module": "pasarela_pagos.py", "details": "opened_from_panel"}
+2026-01-08 19:27:14 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcb3 Pasarela de Pagos", "details": "open:pasarela_pagos.py"}
+2026-01-08 19:27:15 | module_opened | richb | {"module": "PasarelaPagos", "details": "window_created"}
+2026-01-08 19:28:19 | module_closed | richb | {"module": "Seguridad", "details": "window_closed"}
+2026-01-08 19:28:20 | module_closed | richb | {"module": "PasarelaPagos", "details": "window_closed"}
+2026-01-08 19:28:23 | session_ended | richb | {"session_id": "richb-20260108192546"}
+2026-01-09 13:07:17 | session_started | richb | {"session_id": "richb-20260109130717", "user": "richb", "started_at": "2026-01-09 13:07:17"}
+2026-01-09 13:07:24 | module_opened | richb | {"module": "pasarela_pagos.py", "details": "opened_from_panel"}
+2026-01-09 13:07:24 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcb3 Pasarela de Pagos", "details": "open:pasarela_pagos.py"}
+2026-01-09 13:07:25 | module_opened | richb | {"module": "PasarelaPagos", "details": "window_created"}
+2026-01-09 13:10:06 | module_closed | richb | {"module": "PasarelaPagos", "details": "window_closed"}
+2026-01-09 13:10:09 | module_opened | richb | {"module": "seguridad_taller.py", "details": "opened_from_panel"}
+2026-01-09 13:10:09 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udd12 Seguridad", "details": "open:seguridad_taller.py"}
+2026-01-09 13:10:10 | module_opened | richb | {"module": "Seguridad", "details": "window_created"}
+2026-01-09 13:10:10 | module_opened | richb | {"module": "seguridad_taller.py", "details": "opened_from_panel"}
+2026-01-09 13:10:10 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udd12 Seguridad", "details": "open:seguridad_taller.py"}
+2026-01-09 13:10:11 | module_opened | richb | {"module": "Seguridad", "details": "window_created"}
+2026-01-09 13:49:09 | module_closed | richb | {"module": "Seguridad", "details": "window_closed"}
+2026-01-09 13:49:12 | module_closed | richb | {"module": "Seguridad", "details": "window_closed"}
+2026-01-09 13:49:14 | session_ended | richb | {"session_id": "richb-20260109130717"}
+2026-01-09 16:45:52 | session_started | richb | {"session_id": "richb-20260109164552", "user": "richb", "started_at": "2026-01-09 16:45:52"}
+2026-01-09 16:46:14 | module_opened | richb | {"module": "python_ordenes_taller.py", "details": "opened_from_panel"}
+2026-01-09 16:46:14 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udccb \u00d3rdenes de Trabajo", "details": "open:python_ordenes_taller.py"}
+2026-01-09 16:47:57 | module_opened | richb | {"module": "ventas_taller.py", "details": "opened_from_panel"}
+2026-01-09 16:47:57 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcca Ventas", "details": "open:ventas_taller.py"}
+2026-01-09 16:48:15 | module_opened | richb | {"module": "clientes_taller.py", "details": "opened_from_panel"}
+2026-01-09 16:48:15 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udc65 Clientes", "details": "open:clientes_taller.py"}
+2026-01-09 16:48:24 | module_opened | richb | {"module": "proveedores_taller.py", "details": "opened_from_panel"}
+2026-01-09 16:48:24 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udee0 Proveedores", "details": "open:proveedores_taller.py"}
+2026-01-09 16:48:25 | module_opened | richb | {"module": "proveedores_taller.py", "details": "opened_from_panel"}
+2026-01-09 16:48:25 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udee0 Proveedores", "details": "open:proveedores_taller.py"}
+2026-01-09 16:48:25 | module_opened | richb | {"module": "proveedores_taller.py", "details": "opened_from_panel"}
+2026-01-09 16:48:25 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udee0 Proveedores", "details": "open:proveedores_taller.py"}
+2026-01-09 16:48:26 | module_opened | richb | {"module": "proveedores_taller.py", "details": "opened_from_panel"}
+2026-01-09 16:48:26 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udee0 Proveedores", "details": "open:proveedores_taller.py"}
+2026-01-09 16:48:27 | module_opened | richb | {"module": "proveedores_taller.py", "details": "opened_from_panel"}
+2026-01-09 16:48:27 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udee0 Proveedores", "details": "open:proveedores_taller.py"}
+2026-01-09 16:48:27 | module_opened | richb | {"module": "proveedores_taller.py", "details": "opened_from_panel"}
+2026-01-09 16:48:27 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udee0 Proveedores", "details": "open:proveedores_taller.py"}
+2026-01-09 16:48:44 | module_opened | richb | {"module": "modulo_inventario.py", "details": "opened_from_panel"}
+2026-01-09 16:48:44 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udce6 Inventario", "details": "open:modulo_inventario.py"}
+2026-01-09 16:48:56 | module_opened | richb | {"module": "seguridad_taller.py", "details": "opened_from_panel"}
+2026-01-09 16:48:56 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udd12 Seguridad", "details": "open:seguridad_taller.py"}
+2026-01-09 16:48:58 | module_opened | richb | {"module": "Seguridad", "details": "window_created"}
+2026-01-09 16:49:36 | check_password_strength | richb | score=5
+2026-01-09 16:49:36 | button_clicked | richb | {"module": "Seguridad", "button": "Mostrar fuerza", "details": "score=5"}
+2026-01-09 16:49:47 | show_password_toggled | richb | shown
+2026-01-09 16:49:47 | button_clicked | richb | {"module": "Seguridad", "button": "Mostrar contrase\u00f1a", "details": "shown"}
+2026-01-09 16:49:51 | check_password_strength | richb | score=5
+2026-01-09 16:49:51 | button_clicked | richb | {"module": "Seguridad", "button": "Mostrar fuerza", "details": "score=5"}
+2026-01-09 16:49:51 | generate_password | richb | len=16
+2026-01-09 16:49:51 | button_clicked | richb | {"module": "Seguridad", "button": "Generar contrase\u00f1a", "details": "len=16"}
+2026-01-09 16:49:56 | copy_to_clipboard | richb | len=16
+2026-01-09 16:49:56 | copy_password | richb | service=USUARIO NJUEVO user=richbello
+2026-01-09 16:49:56 | button_clicked | richb | {"module": "Seguridad", "button": "Copiar contrase\u00f1a", "details": "service=USUARIO NJUEVO user=richbello"}
+2026-01-09 16:50:04 | button_clicked | richb | {"module": "Seguridad", "button": "Ver audit log", "details": ""}
+2026-01-09 16:50:11 | clipboard_cleared | richb | 
+2026-01-09 16:50:59 | module_opened | richb | {"module": "pasarela_pagos.py", "details": "opened_from_panel"}
+2026-01-09 16:50:59 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcb3 Pasarela de Pagos", "details": "open:pasarela_pagos.py"}
+2026-01-09 16:51:00 | module_opened | richb | {"module": "PasarelaPagos", "details": "window_created"}
+2026-01-09 16:52:23 | module_closed | richb | {"module": "PasarelaPagos", "details": "window_closed"}
+2026-01-10 10:29:09 | session_started | richb | {"session_id": "richb-20260110102909", "user": "richb", "started_at": "2026-01-10 10:29:09"}
+2026-01-10 10:29:13 | module_opened | richb | {"module": "pasarela_pagos.py", "details": "opened_from_panel"}
+2026-01-10 10:29:13 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcb3 Pasarela de Pagos", "details": "open:pasarela_pagos.py"}
+2026-01-10 10:29:14 | module_opened | richb | {"module": "PasarelaPagos", "details": "window_created"}
+2026-01-10 10:29:30 | module_closed | richb | {"module": "PasarelaPagos", "details": "window_closed"}
+2026-01-10 10:29:32 | session_ended | richb | {"session_id": "richb-20260110102909"}
+2026-01-10 10:32:31 | module_opened | richb | {"module": "PasarelaPagos", "details": "window_created"}
+2026-01-10 10:32:51 | module_closed | richb | {"module": "PasarelaPagos", "details": "window_closed"}
+2026-01-10 10:45:09 | module_opened | richb | {"module": "PasarelaPagos", "details": "window_created"}
+2026-01-10 10:46:14 | module_closed | richb | {"module": "PasarelaPagos", "details": "window_closed"}
+2026-01-10 12:24:19 | session_started | richb | {"session_id": "richb-20260110122419", "user": "richb", "started_at": "2026-01-10 12:24:19"}
+2026-01-10 12:24:27 | module_opened | richb | {"module": "nomina_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:24:27 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83e\uddfe N\u00f3mina", "details": "open:nomina_taller.py"}
+2026-01-10 12:24:32 | module_opened | richb | {"module": "compras_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:24:32 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\uded2 Compras", "details": "open:compras_taller.py"}
+2026-01-10 12:24:37 | module_opened | richb | {"module": "cartera_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:24:37 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcbc Cartera", "details": "open:cartera_taller.py"}
+2026-01-10 12:26:47 | module_opened | richb | {"module": "nomina_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:26:47 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83e\uddfe N\u00f3mina", "details": "open:nomina_taller.py"}
+2026-01-10 12:27:18 | module_opened | richb | {"module": "compras_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:27:18 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\uded2 Compras", "details": "open:compras_taller.py"}
+2026-01-10 12:27:40 | module_opened | richb | {"module": "cartera_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:27:40 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcbc Cartera", "details": "open:cartera_taller.py"}
+2026-01-10 12:28:06 | module_opened | richb | {"module": "pasarela_pagos.py", "details": "opened_from_panel"}
+2026-01-10 12:28:06 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcb3 Pasarela de Pagos", "details": "open:pasarela_pagos.py"}
+2026-01-10 12:28:07 | module_opened | richb | {"module": "PasarelaPagos", "details": "window_created"}
+2026-01-10 12:28:21 | module_closed | richb | {"module": "PasarelaPagos", "details": "window_closed"}
+2026-01-10 12:36:42 | session_ended | richb | {"session_id": "richb-20260110122419"}
+2026-01-10 12:37:03 | session_started | richb | {"session_id": "richb-20260110123703", "user": "richb", "started_at": "2026-01-10 12:37:03"}
+2026-01-10 12:37:13 | session_ended | richb | {"session_id": "richb-20260110123703"}
+2026-01-10 12:37:22 | session_started | richb | {"session_id": "richb-20260110123722", "user": "richb", "started_at": "2026-01-10 12:37:22"}
+2026-01-10 12:37:25 | session_ended | richb | {"session_id": "richb-20260110123722"}
+2026-01-10 12:40:54 | session_started | richb | {"session_id": "richb-20260110124054", "user": "richb", "started_at": "2026-01-10 12:40:54"}
+2026-01-10 12:41:08 | module_opened | richb | {"module": "config_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:41:08 | button_clicked | richb | {"module": "PanelInicio", "button": "\u2699\ufe0f Configuraci\u00f3n", "details": "open:config_taller.py"}
+2026-01-10 12:41:15 | module_opened | richb | {"module": "python_ordenes_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:41:15 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udccb \u00d3rdenes de Trabajo", "details": "open:python_ordenes_taller.py"}
+2026-01-10 12:41:21 | module_opened | richb | {"module": "ventas_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:41:21 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcca Ventas", "details": "open:ventas_taller.py"}
+2026-01-10 12:41:27 | module_opened | richb | {"module": "seguridad_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:41:27 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udd12 Seguridad", "details": "open:seguridad_taller.py"}
+2026-01-10 12:41:29 | module_opened | richb | {"module": "Seguridad", "details": "window_created"}
+2026-01-10 12:41:32 | module_closed | richb | {"module": "Seguridad", "details": "window_closed"}
+2026-01-10 12:41:34 | module_opened | richb | {"module": "pasarela_pagos.py", "details": "opened_from_panel"}
+2026-01-10 12:41:34 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcb3 Pasarela de Pagos", "details": "open:pasarela_pagos.py"}
+2026-01-10 12:41:36 | module_opened | richb | {"module": "PasarelaPagos", "details": "window_created"}
+2026-01-10 12:41:38 | module_closed | richb | {"module": "PasarelaPagos", "details": "window_closed"}
+2026-01-10 12:41:39 | module_opened | richb | {"module": "nomina_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:41:40 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83e\uddfe N\u00f3mina", "details": "open:nomina_taller.py"}
+2026-01-10 12:41:44 | module_opened | richb | {"module": "compras_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:41:44 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\uded2 Compras", "details": "open:compras_taller.py"}
+2026-01-10 12:41:50 | module_opened | richb | {"module": "cartera_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:41:50 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcbc Cartera", "details": "open:cartera_taller.py"}
+2026-01-10 12:41:56 | module_opened | richb | {"module": "config_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:41:56 | button_clicked | richb | {"module": "PanelInicio", "button": "\u2699\ufe0f Configuraci\u00f3n", "details": "open:config_taller.py"}
+2026-01-10 12:41:58 | module_opened | richb | {"module": "reportes_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:41:58 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcc8 Reportes", "details": "open:reportes_taller.py"}
+2026-01-10 12:44:09 | session_started | richb | {"session_id": "richb-20260110124409", "user": "richb", "started_at": "2026-01-10 12:44:09"}
+2026-01-10 12:44:14 | session_ended | richb | {"session_id": "richb-20260110124409"}
+2026-01-10 12:56:38 | session_started | richb | {"session_id": "richb-20260110125638", "user": "richb", "started_at": "2026-01-10 12:56:38"}
+2026-01-10 12:56:43 | module_opened | richb | {"module": "config_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:56:43 | button_clicked | richb | {"module": "PanelInicio", "button": "\u2699\ufe0f Configuraci\u00f3n", "details": "open:config_taller.py"}
+2026-01-10 12:56:46 | module_opened | richb | {"module": "reportes_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:56:46 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcc8 Reportes", "details": "open:reportes_taller.py"}
+2026-01-10 12:56:53 | module_opened | richb | {"module": "config_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:56:53 | button_clicked | richb | {"module": "PanelInicio", "button": "\u2699\ufe0f Configuraci\u00f3n", "details": "open:config_taller.py"}
+2026-01-10 12:56:56 | module_opened | richb | {"module": "cartera_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:56:56 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcbc Cartera", "details": "open:cartera_taller.py"}
+2026-01-10 12:57:01 | session_ended | richb | {"session_id": "richb-20260110125638"}
+2026-01-10 12:58:25 | session_started | richb | {"session_id": "richb-20260110125825", "user": "richb", "started_at": "2026-01-10 12:58:25"}
+2026-01-10 12:58:27 | module_opened | richb | {"module": "config_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:58:27 | button_clicked | richb | {"module": "PanelInicio", "button": "\u2699\ufe0f Configuraci\u00f3n", "details": "open:config_taller.py"}
+2026-01-10 12:58:30 | session_ended | richb | {"session_id": "richb-20260110125825"}
+2026-01-10 12:58:54 | session_started | richb | {"session_id": "richb-20260110125854", "user": "richb", "started_at": "2026-01-10 12:58:54"}
+2026-01-10 12:58:57 | module_opened | richb | {"module": "config_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:58:57 | button_clicked | richb | {"module": "PanelInicio", "button": "\u2699\ufe0f Configuraci\u00f3n", "details": "open:config_taller.py"}
+2026-01-10 12:59:03 | session_ended | richb | {"session_id": "richb-20260110125854"}
+2026-01-10 12:59:35 | session_started | richb | {"session_id": "richb-20260110125935", "user": "richb", "started_at": "2026-01-10 12:59:35"}
+2026-01-10 12:59:37 | module_opened | richb | {"module": "config_taller.py", "details": "opened_from_panel"}
+2026-01-10 12:59:37 | button_clicked | richb | {"module": "PanelInicio", "button": "\u2699\ufe0f Configuraci\u00f3n", "details": "open:config_taller.py"}
+2026-01-10 13:00:57 | session_ended | richb | {"session_id": "richb-20260110125935"}
+2026-01-10 13:03:09 | session_started | richb | {"session_id": "richb-20260110130309", "user": "richb", "started_at": "2026-01-10 13:03:09"}
+2026-01-10 13:03:15 | module_opened | richb | {"module": "config_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:03:15 | button_clicked | richb | {"module": "PanelInicio", "button": "\u2699\ufe0f Configuraci\u00f3n", "details": "open:config_taller.py"}
+2026-01-10 13:06:06 | session_ended | richb | {"session_id": "richb-20260110130309"}
+2026-01-10 13:09:01 | session_started | richb | {"session_id": "richb-20260110130901", "user": "richb", "started_at": "2026-01-10 13:09:01"}
+2026-01-10 13:09:08 | session_ended | richb | {"session_id": "richb-20260110130901"}
+2026-01-10 13:12:15 | session_started | richb | {"session_id": "richb-20260110131215", "user": "richb", "started_at": "2026-01-10 13:12:15"}
+2026-01-10 13:12:20 | module_opened | richb | {"module": "config_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:12:20 | button_clicked | richb | {"module": "PanelInicio", "button": "\u2699\ufe0f Configuraci\u00f3n", "details": "open:config_taller.py"}
+2026-01-10 13:12:24 | module_opened | richb | {"module": "reportes_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:12:24 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcc8 Reportes", "details": "open:reportes_taller.py"}
+2026-01-10 13:12:27 | module_opened | richb | {"module": "reportes_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:12:27 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcc8 Reportes", "details": "open:reportes_taller.py"}
+2026-01-10 13:12:33 | module_opened | richb | {"module": "cartera_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:12:33 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcbc Cartera", "details": "open:cartera_taller.py"}
+2026-01-10 13:12:38 | module_opened | richb | {"module": "compras_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:12:38 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\uded2 Compras", "details": "open:compras_taller.py"}
+2026-01-10 13:12:43 | session_ended | richb | {"session_id": "richb-20260110131215"}
+2026-01-10 13:13:44 | session_started | richb | {"session_id": "richb-20260110131344", "user": "richb", "started_at": "2026-01-10 13:13:44"}
+2026-01-10 13:13:49 | session_ended | richb | {"session_id": "richb-20260110131344"}
+2026-01-10 13:14:57 | session_started | richb | {"session_id": "richb-20260110131457", "user": "richb", "started_at": "2026-01-10 13:14:57"}
+2026-01-10 13:15:04 | module_opened | richb | {"module": "config_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:15:04 | button_clicked | richb | {"module": "PanelInicio", "button": "\u2699\ufe0f Configuraci\u00f3n", "details": "open:config_taller.py"}
+2026-01-10 13:15:11 | module_opened | richb | {"module": "reportes_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:15:11 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcc8 Reportes", "details": "open:reportes_taller.py"}
+2026-01-10 13:15:17 | module_opened | richb | {"module": "cartera_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:15:17 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcbc Cartera", "details": "open:cartera_taller.py"}
+2026-01-10 13:15:23 | module_opened | richb | {"module": "pasarela_pagos.py", "details": "opened_from_panel"}
+2026-01-10 13:15:23 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcb3 Pasarela de Pagos", "details": "open:pasarela_pagos.py"}
+2026-01-10 13:15:24 | module_opened | richb | {"module": "PasarelaPagos", "details": "window_created"}
+2026-01-10 13:15:30 | module_closed | richb | {"module": "PasarelaPagos", "details": "window_closed"}
+2026-01-10 13:15:38 | module_opened | richb | {"module": "nomina_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:15:38 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83e\uddfe N\u00f3mina", "details": "open:nomina_taller.py"}
+2026-01-10 13:16:25 | module_opened | richb | {"module": "ventas_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:16:25 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcca Ventas", "details": "open:ventas_taller.py"}
+2026-01-10 13:16:33 | module_opened | richb | {"module": "clientes_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:16:33 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udc65 Clientes", "details": "open:clientes_taller.py"}
+2026-01-10 13:17:00 | session_ended | richb | {"session_id": "richb-20260110131457"}
+2026-01-10 13:17:46 | session_started | richb | {"session_id": "richb-20260110131746", "user": "richb", "started_at": "2026-01-10 13:17:46"}
+2026-01-10 13:18:00 | module_opened | richb | {"module": "config_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:18:00 | button_clicked | richb | {"module": "PanelInicio", "button": "\u2699\ufe0f Configuraci\u00f3n", "details": "open:config_taller.py"}
+2026-01-10 13:18:15 | module_opened | richb | {"module": "reportes_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:18:15 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcc8 Reportes", "details": "open:reportes_taller.py"}
+2026-01-10 13:18:22 | module_opened | richb | {"module": "cartera_taller.py", "details": "opened_from_panel"}
+2026-01-10 13:18:22 | button_clicked | richb | {"module": "PanelInicio", "button": "\ud83d\udcbc Cartera", "details": "open:cartera_taller.py"}
+2026-01-10 13:20:16 | session_ended | richb | {"session_id": "richb-20260110131746"}

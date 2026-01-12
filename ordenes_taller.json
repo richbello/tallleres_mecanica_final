@@ -1,0 +1,461 @@
+[
+  {
+    "fecha": "2026-01-08 14:00",
+    "placa": "ABC123",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "anio": "2018",
+    "cliente": "Juan Pérez",
+    "telefono": "3001234567",
+    "diagnostico": "Cambio de aceite y revisión general.",
+    "servicio": "Cambio de aceite",
+    "estado": "Pendiente",
+    "repuestos": [
+      {
+        "nombre": "Aceite 10W-40",
+        "precio": 45000
+      },
+      {
+        "nombre": "Filtro de aceite",
+        "precio": 25000
+      }
+    ],
+    "subtotal": 70000,
+    "iva": 13300,
+    "total": 83300
+  },
+  {
+    "fecha": "2026-01-08 14:05",
+    "placa": "XYZ789",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "anio": "2020",
+    "cliente": "María Gómez",
+    "telefono": "3019876543",
+    "diagnostico": "Revisión de frenos, pastillas desgastadas.",
+    "servicio": "Frenos (pastillas/discos)",
+    "estado": "En proceso",
+    "repuestos": [
+      {
+        "nombre": "Pastillas de freno",
+        "precio": 90000
+      },
+      {
+        "nombre": "Líquido de frenos",
+        "precio": 28000
+      }
+    ],
+    "subtotal": 118000,
+    "iva": 22420,
+    "total": 140420
+  },
+  {
+    "fecha": "2026-01-08 14:10",
+    "placa": "LMN456",
+    "marca": "Ford",
+    "modelo": "Focus",
+    "anio": "2017",
+    "cliente": "Carlos Ruiz",
+    "telefono": "3021112233",
+    "diagnostico": "Cambio de batería y prueba de sistema eléctrico.",
+    "servicio": "Cambio de batería",
+    "estado": "Pendiente",
+    "repuestos": [
+      {
+        "nombre": "Batería 12V",
+        "precio": 320000
+      }
+    ],
+    "subtotal": 320000,
+    "iva": 60800,
+    "total": 380800
+  },
+  {
+    "fecha": "2026-01-08 14:15",
+    "placa": "JKL321",
+    "marca": "Chevrolet",
+    "modelo": "Spark",
+    "anio": "2019",
+    "cliente": "Ana Torres",
+    "telefono": "3009988776",
+    "diagnostico": "Alineación y balanceo.",
+    "servicio": "Alineación y balanceo",
+    "estado": "Terminado",
+    "repuestos": [],
+    "subtotal": 0,
+    "iva": 0,
+    "total": 0
+  },
+  {
+    "fecha": "2026-01-08 14:20",
+    "placa": "QWE987",
+    "marca": "Mazda",
+    "modelo": "CX-3",
+    "anio": "2021",
+    "cliente": "Luis Martínez",
+    "telefono": "3045566778",
+    "diagnostico": "Revisión suspensión delantera.",
+    "servicio": "Suspensión",
+    "estado": "Pendiente",
+    "repuestos": [
+      {
+        "nombre": "Amortiguador",
+        "precio": 180000
+      }
+    ],
+    "subtotal": 180000,
+    "iva": 34200,
+    "total": 214200
+  },
+  {
+    "fecha": "2026-01-08 14:25",
+    "placa": "RTY654",
+    "marca": "Nissan",
+    "modelo": "Versa",
+    "anio": "2016",
+    "cliente": "Paola Sánchez",
+    "telefono": "3056677889",
+    "diagnostico": "Afinación general del vehículo.",
+    "servicio": "Afinación general",
+    "estado": "Pendiente",
+    "repuestos": [
+      {
+        "nombre": "Filtro de aire",
+        "precio": 30000
+      },
+      {
+        "nombre": "Aceite 10W-40",
+        "precio": 45000
+      }
+    ],
+    "subtotal": 75000,
+    "iva": 14250,
+    "total": 89250
+  },
+  {
+    "fecha": "2026-01-08 14:30",
+    "placa": "UIO852",
+    "marca": "Hyundai",
+    "modelo": "Elantra",
+    "anio": "2018",
+    "cliente": "Andrés López",
+    "telefono": "3003344556",
+    "diagnostico": "Revisión eléctrica general.",
+    "servicio": "Diagnóstico eléctrico",
+    "estado": "Pendiente",
+    "repuestos": [],
+    "subtotal": 0,
+    "iva": 0,
+    "total": 0
+  },
+  {
+    "fecha": "2026-01-08 14:35",
+    "placa": "ASD741",
+    "marca": "Kia",
+    "modelo": "Rio",
+    "anio": "2019",
+    "cliente": "Claudia Herrera",
+    "telefono": "3014455667",
+    "diagnostico": "Cambio de pastillas de freno traseras.",
+    "servicio": "Frenos (pastillas/discos)",
+    "estado": "En proceso",
+    "repuestos": [
+      {
+        "nombre": "Pastillas de freno",
+        "precio": 90000
+      }
+    ],
+    "subtotal": 90000,
+    "iva": 17100,
+    "total": 107100
+  },
+  {
+    "fecha": "2026-01-08 14:40",
+    "placa": "ZXC963",
+    "marca": "Volkswagen",
+    "modelo": "Golf",
+    "anio": "2017",
+    "cliente": "Fernando Díaz",
+    "telefono": "3007766554",
+    "diagnostico": "Revisión amortiguadores delanteros.",
+    "servicio": "Suspensión",
+    "estado": "Pendiente",
+    "repuestos": [
+      {
+        "nombre": "Amortiguador",
+        "precio": 180000
+      }
+    ],
+    "subtotal": 180000,
+    "iva": 34200,
+    "total": 214200
+  },
+  {
+    "fecha": "2026-01-08 14:45",
+    "placa": "BNM147",
+    "marca": "Renault",
+    "modelo": "Logan",
+    "anio": "2015",
+    "cliente": "Sofía Ramírez",
+    "telefono": "3029988776",
+    "diagnostico": "Cambio de aceite rápido.",
+    "servicio": "Cambio de aceite",
+    "estado": "Pendiente",
+    "repuestos": [
+      {
+        "nombre": "Aceite 10W-40",
+        "precio": 45000
+      }
+    ],
+    "subtotal": 45000,
+    "iva": 8550,
+    "total": 53550
+  },
+  {
+    "fecha": "2026-01-08 14:50",
+    "placa": "GHJ258",
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+    "anio": "2020",
+    "cliente": "Diego Castro",
+    "telefono": "3001122334",
+    "diagnostico": "Afinación completa y cambio de filtros.",
+    "servicio": "Afinación general",
+    "estado": "Terminado",
+    "repuestos": [
+      {
+        "nombre": "Filtro de aceite",
+        "precio": 25000
+      },
+      {
+        "nombre": "Filtro de aire",
+        "precio": 30000
+      },
+      {
+        "nombre": "Aceite 10W-40",
+        "precio": 45000
+      }
+    ],
+    "subtotal": 100000,
+    "iva": 19000,
+    "total": 119000
+  },
+  {
+    "fecha": "2026-01-08 14:55",
+    "placa": "PLK369",
+    "marca": "Hyundai",
+    "modelo": "i20",
+    "anio": "2016",
+    "cliente": "Gabriela Suárez",
+    "telefono": "3056677881",
+    "diagnostico": "Revisión del sistema eléctrico.",
+    "servicio": "Diagnóstico eléctrico",
+    "estado": "Pendiente",
+    "repuestos": [],
+    "subtotal": 0,
+    "iva": 0,
+    "total": 0
+  },
+  {
+    "fecha": "2026-01-08 15:00",
+    "placa": "HJK753",
+    "marca": "Toyota",
+    "modelo": "Yaris",
+    "anio": "2018",
+    "cliente": "Esteban Vargas",
+    "telefono": "3005566778",
+    "diagnostico": "Cambio de batería y pruebas de motor.",
+    "servicio": "Cambio de batería",
+    "estado": "En proceso",
+    "repuestos": [
+      {
+        "nombre": "Batería 12V",
+        "precio": 320000
+      }
+    ],
+    "subtotal": 320000,
+    "iva": 60800,
+    "total": 380800
+  },
+  {
+    "fecha": "2026-01-08 15:05",
+    "placa": "WER852",
+    "marca": "Honda",
+    "modelo": "Fit",
+    "anio": "2019",
+    "cliente": "Patricia León",
+    "telefono": "3013344556",
+    "diagnostico": "Cambio de pastillas de freno delanteras.",
+    "servicio": "Frenos (pastillas/discos)",
+    "estado": "Pendiente",
+    "repuestos": [
+      {
+        "nombre": "Pastillas de freno",
+        "precio": 90000
+      },
+      {
+        "nombre": "Líquido de frenos",
+        "precio": 28000
+      }
+    ],
+    "subtotal": 118000,
+    "iva": 22420,
+    "total": 140420
+  },
+  {
+    "fecha": "2026-01-08 15:10",
+    "placa": "TYU951",
+    "marca": "Mazda",
+    "modelo": "3",
+    "anio": "2017",
+    "cliente": "Hugo Morales",
+    "telefono": "3046677889",
+    "diagnostico": "Cambio de aceite y filtro.",
+    "servicio": "Cambio de aceite",
+    "estado": "Pendiente",
+    "repuestos": [
+      {
+        "nombre": "Aceite 10W-40",
+        "precio": 45000
+      },
+      {
+        "nombre": "Filtro de aceite",
+        "precio": 25000
+      }
+    ],
+    "subtotal": 70000,
+    "iva": 13300,
+    "total": 83300
+  },
+  {
+    "fecha": "2026-01-08 15:15",
+    "placa": "CVB357",
+    "marca": "Nissan",
+    "modelo": "March",
+    "anio": "2018",
+    "cliente": "Pedro Alvarez",
+    "telefono": "3054455667",
+    "diagnostico": "Afinación general y limpieza de filtros.",
+    "servicio": "Afinación general",
+    "estado": "Pendiente",
+    "repuestos": [
+      {
+        "nombre": "Filtro de aceite",
+        "precio": 25000
+      },
+      {
+        "nombre": "Aceite 10W-40",
+        "precio": 45000
+      }
+    ],
+    "subtotal": 70000,
+    "iva": 13300,
+    "total": 83300
+  },
+  {
+    "fecha": "2026-01-08 15:20",
+    "placa": "QAZ123",
+    "marca": "Kia",
+    "modelo": "Soul",
+    "anio": "2019",
+    "cliente": "Laura Fernández",
+    "telefono": "3008899776",
+    "diagnostico": "Cambio de batería y pruebas eléctricas.",
+    "servicio": "Cambio de batería",
+    "estado": "Terminado",
+    "repuestos": [
+      {
+        "nombre": "Batería 12V",
+        "precio": 320000
+      }
+    ],
+    "subtotal": 320000,
+    "iva": 60800,
+    "total": 380800
+  },
+  {
+    "fecha": "2026-01-08 15:25",
+    "placa": "WSX456",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "anio": "2020",
+    "cliente": "Santiago Rojas",
+    "telefono": "3006677889",
+    "diagnostico": "Revisión de frenos y suspensión.",
+    "servicio": "Suspensión",
+    "estado": "En proceso",
+    "repuestos": [
+      {
+        "nombre": "Amortiguador",
+        "precio": 180000
+      },
+      {
+        "nombre": "Líquido de frenos",
+        "precio": 28000
+      }
+    ],
+    "subtotal": 208000,
+    "iva": 39520,
+    "total": 247520
+  },
+  {
+    "fecha": "2026-01-08 15:25",
+    "placa": "RZU860",
+    "marca": "RENAULT",
+    "modelo": "MEGANE 2",
+    "anio": "2009",
+    "cliente": "RICHARD BELLO R",
+    "telefono": "3208303849",
+    "diagnostico": "Ajuste Suspensión delantera",
+    "servicio": "Afinación general",
+    "precio_servicio": 70000,
+    "estado": "En proceso",
+    "repuestos": [],
+    "subtotal": 70000,
+    "iva": 13300,
+    "total": 83300
+  },
+  {
+    "fecha": "2026-01-08 15:26",
+    "placa": "IHN666",
+    "marca": "HYUNDAI",
+    "modelo": "ACCENT",
+    "anio": "2020",
+    "cliente": "MARITZA JULIANA",
+    "telefono": "3042589658",
+    "diagnostico": "Arreglo General",
+    "servicio": "Alineación y balanceo",
+    "precio_servicio": 80000,
+    "estado": "En proceso",
+    "repuestos": [],
+    "subtotal": 80000,
+    "iva": 15200,
+    "total": 95200
+  },
+  {
+    "fecha": "2026-01-08 15:40",
+    "placa": "JHU756",
+    "marca": "NISSAN",
+    "modelo": "SENTRA",
+    "anio": "2018",
+    "cliente": "XIOMARA ALARCON",
+    "telefono": "318965895",
+    "diagnostico": "Arreglo en General",
+    "servicio": "Cambio de aceite",
+    "precio_servicio": 60000,
+    "estado": "En proceso",
+    "repuestos": [
+      {
+        "nombre": "Filtro de aceite",
+        "precio": 25000
+      },
+      {
+        "nombre": "Filtro de aceite",
+        "precio": 25000
+      }
+    ],
+    "subtotal": 110000,
+    "iva": 20900,
+    "total": 130900
+  }
+]
